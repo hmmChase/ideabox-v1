@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IdeaBox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Play"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>IdeaBox</h1>
+      <form id="input-forms">
+        <img src="./assets/images/ideabox.png" alt="ideabox" />
+        <textarea
+          class="input-field"
+          id="inputIdea"
+          type="text"
+          name="ideaInput"
+          placeholder="What's on your mind?"
+        ></textarea>
+        <button
+          class="save-button"
+          id="button-save"
+          type="button"
+          name="save-button"
+          value="save"
+        >
+          Add Idea
+        </button>
+      </form>
+    </header>
+    <main id="bottom-section">
+      <ul id="idea-card-area"></ul>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

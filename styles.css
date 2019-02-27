@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #393933;
+}
+
+.idea-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  background: none;
+  background-image: url('./assets/images/delete.svg');
+  cursor: pointer;
+}
+
+form {
+  position: relative;
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+}
+
+img {
+  position: absolute;
+  top: -60px;
+  left: -45px;
+  width: 100px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  outline: none;
+  resize: vertical;
+}
+
+.save-button {
+  width: 60px;
+  border: none;
+  background-color: #fffacd;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+p {
+  width: 100%;
+  padding: 5px;
+  border: black solid 1px;
+  margin: 0;
+  text-align: left;
+  outline: none;
+}
+
+li {
+  position: relative;
+  display: flex;
+  width: 80%;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #282c34;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Play', sans-serif;
+  font-size: 2em;
+  color: #FFFF99;
+}
